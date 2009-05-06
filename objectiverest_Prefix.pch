@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'objectiverest' target in the 'objectiverest' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import "Logging.h"
+	#import "Additions.h"
+#endif
